@@ -89,7 +89,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "/assets/img/profile.png"
+og_image                 : "/assets/img/profile.PNG"
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
@@ -109,7 +109,7 @@ author:
   name   : |+
    \\Cubeb0x0\
   avatar : "/assets/img/profile.png"
-  bio    : ""
+  bio    : "Hacking Active Directory"
   location         : "Sweden"
   email  : # optional
   links:
