@@ -17,7 +17,8 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "en-US"
 title                    : |+
- \\cube0x0\
+ $Whoami
+ Name: cube0x0
 title_separator          : "-"
 name                     : "Your Name"
 description              : "An awesome website."
@@ -107,8 +108,8 @@ analytics:
 # Site Author
 author:
   name   : |+
-   \\Cubeb0x0\
-  avatar : "/assets/img/profile.png"
+   \\Cubeb0x0
+  avatar : "/assets/img/winlogo2.png"
   bio    : ""
   location         : "Sweden"
   email  : # optional
@@ -121,13 +122,13 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/cube0x0"
+      url: "https://twitter.com/chryzsh"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/cube0x0"
+      url: "https://github.com/chryzsh"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
