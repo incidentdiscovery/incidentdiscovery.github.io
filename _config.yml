@@ -107,7 +107,8 @@ analytics:
 
 # Site Author
 author:
-  name   : "\\cube0x0\"
+  name   : |+
+   \\Cubeb0x0
   avatar : "/assets/img/winlogo2.png"
   bio    : ""
   location         : "Sweden"
