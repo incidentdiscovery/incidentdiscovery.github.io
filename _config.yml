@@ -16,7 +16,9 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : " \\\cube0x0\hacking blog"
+title                    : |+
+ $Whoami
+ Name: cube0x0
 title_separator          : "-"
 name                     : "Your Name"
 description              : "An awesome website."
@@ -141,7 +143,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/chryzsh/chryzsh.github.io"
+      url: "https://github.com/cube0x0/cube0x0.github.io"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
