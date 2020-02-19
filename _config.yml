@@ -108,7 +108,7 @@ analytics:
 author:
   name   : |+
    \\Cubeb0x0\
-  avatar : "/assets/img/profile.png"
+  avatar : "/assets/img/profile.PNG"
   bio    : "Hacking Active Directory"
   location         : "Sweden"
   email  : # optional
