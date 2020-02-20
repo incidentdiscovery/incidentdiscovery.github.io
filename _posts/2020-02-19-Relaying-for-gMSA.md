@@ -26,7 +26,7 @@ The NTLM relaying process:
 - 2\. The attacker than relays the NTLM_NEGOTIATE to the target server of their choice. 
 - 3\. Target server answers back with an NTLM_CHALLENGE packet to the attacker. 
 - 4\. Attacker relays the NTLM_CHALLANGE packet to the victim. 
-- 5\. Victim answers with a back to the attacker.
+- 5\. Victim answers with a NTLM_AUTHENTICATE back to the attacker.
 - 6\. Attacker relays the NTLM_AUTHENTICATE to the target server. 
 - 7\. The attacker now has an authenticated session with the target server.
 ![relaying-steps](../assets/img/gMSA/relaying-steps.png)
