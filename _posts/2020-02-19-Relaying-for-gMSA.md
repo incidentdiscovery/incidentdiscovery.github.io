@@ -69,6 +69,9 @@ Convert the blob using the DSInternals module. The password is stored in  random
 ```
 ![convert](../assets/img/gMSA/convert.png)
 
+### Update 
+Due to awesome work from [@asolino](https://github.com/asolino), we now have a full implementation of the the MSDS-MANAGEDPASSWORD_BLOB structure using the impacket.structure module. This makes it possible to parse the datablob and convert the password in real time so DSinternal is no longer required, Impacket will give you the NT password directly from the output
+
 ## Mitigations
 NTLM relaying to LDAP and LDAPS can be mitigated by enabling LDAP signing and LDAP channel binding. 
 Permissions and group membership for service accounts can be identified by BloodHound and every organisation should have the goal to follow the least privileged model.
