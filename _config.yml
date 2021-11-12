@@ -17,9 +17,9 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "en-US"
 title                    : |+
- \\cube0x0\
+ Incident Discovery
 title_separator          : "-"
-name                     : "Incident Discovery"
+name                     : "Alex Farias"
 description              : "An awesome website."
 url                      : "https://incidentdiscovery.github.io/"
 baseurl                  : ""
@@ -107,9 +107,9 @@ analytics:
 # Site Author
 author:
   name   : |+
-   \\Incident Discovery\
+   Incident Discovery
   avatar : "/assets/img/profile.PNG"
-  bio    : "Hacking Active Directory"
+  bio    : "Purple Team"
   location         : "Brazil"
   email  : # optional
   links:
@@ -121,16 +121,19 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/cube0x0"
+      url: "https://twitter.com/alexfariasec"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/cube0x0"
+      # url: "https://github.com/cube0x0"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+       - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/alexfariasec"
 
 # Site Footer
 footer:
@@ -143,7 +146,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/cube0x0/cube0x0.github.io"
+      url: "https://github.com/incidentdiscovery/incidentdiscovery.github.io"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
