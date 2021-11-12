@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name   : |+
-   Incident Discovery
+   Alex Farias
   avatar : "/assets/img/profile.png"
   bio    : "Purple Team"
   location         : "Brazil"
@@ -132,7 +132,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
     - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/alexfariasec"
 
 # Site Footer
@@ -157,7 +157,7 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
     - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/alexfariasec"
 
 
