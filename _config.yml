@@ -131,8 +131,8 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-       - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin-square"
       url: "https://linkedin.com/alexfariasec"
 
 # Site Footer
@@ -156,6 +156,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin-square"
+      url: "https://linkedin.com/alexfariasec"
 
 
 # Reading Files
