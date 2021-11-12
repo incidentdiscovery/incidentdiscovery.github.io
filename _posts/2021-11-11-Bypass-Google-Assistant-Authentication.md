@@ -28,20 +28,9 @@ Logo abaixo podemos ver um vídeo com a prova de conceito (PoC) para facilitar a
 
 Poc: https://youtu.be/T3CgECvV-qM
 
-## TT1
+## TT
 
-<object width="425" height="350">
-  <param name="movie" value="https://www.youtube.com/watch?v=T3CgECvV-qM" />
-  <param name="wmode" value="transparent" />
-  <embed src="https://www.youtube.com/watch?v=T3CgECvV-qM"
-         type="application/x-shockwave-flash"
-         wmode="transparent" width="425" height="350" />
-</object>
-
-
-## TT2
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/T3CgECvV-qM/0.jpg)](https://www.youtube.com/watch?v=T3CgECvV-qM)
+[![Everything Is AWESOME](https://img.youtube.com/vi/T3CgECvV-qM/0.jpg)](https://www.youtube.com/watch?v=T3CgECvV-qM "Everything Is AWESOME")
 
 
 
