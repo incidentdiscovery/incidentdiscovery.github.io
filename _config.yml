@@ -89,7 +89,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "/assets/img/profile.PNG"
+og_image                 : "/assets/img/profile.png"
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
@@ -108,7 +108,7 @@ analytics:
 author:
   name   : |+
    Incident Discovery
-  avatar : "/assets/img/profile.PNG"
+  avatar : "/assets/img/profile.png"
   bio    : "Purple Team"
   location         : "Brazil"
   email  : # optional
