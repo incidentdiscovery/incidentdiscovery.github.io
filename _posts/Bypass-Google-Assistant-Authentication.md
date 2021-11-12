@@ -15,10 +15,10 @@ Após isso veremos o Google Assistente executar comandos automaticamente, sem ne
 
 Essa vulnerabilidade pode ser explorada da mesma maneira (ou enviando uma intenção “VOICE_COMMAND”) por aplicativos Android (sem nenhuma permissão necessária), na verdade, essa foi a ideia inicial, mas o impacto é muito maior se a vítima só precisar visitar uma página da web para obter os mesmos resultados.
 
-### Observações
+## Observações
 Um fato curioso é que ao testar usando o navegador Chrome no Android, um arquivo de áudio é reproduzido de forma diferente dependendo da duração.
 Isso nos força a dividir os comandos de ataque em diferentes arquivos de áudio (por exemplo, o "local de compartilhamento" e o número do telefone são comandos diferentes), pois quando tentamos reproduzir o arquivo de áudio mais longo, o Chrome o interpretou como uma "mídia" e exibiu a notificação de controle de mídia também.
-E acionar o Assistente enquanto uma “mídia” de áudio mais longa estava sendo reproduzida, fez com que o Assistente pausasse o áudio.
+E quando acionar o Assistente enquanto uma “mídia” de áudio mais longa estava sendo reproduzida, fez com que o Assistente pausasse o áudio.
 Ao usar arquivos de áudio mais curtos, a notificação de controle de mídia não apareceu, e o Assistente não pausou a mídia, permitindo-lhe executar os comandos maliciosos.
  
 Utilizando a API Cloud Text-to-Speech para gerar os arquivos de áudio, usamos language_code = ’en-US’ e name = ”en-US-Wavenet-A” para gerar os arquivos de áudio.
@@ -29,7 +29,7 @@ Logo abaixo podemos ver um vídeo com a prova de conceito (PoC) para facilitar a
 Poc: https://youtu.be/T3CgECvV-qM
 
 
-### Prova de Conceito (PoC)
+## Prova de Conceito (PoC)
 
 ```
 <html>
