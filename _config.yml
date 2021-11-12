@@ -19,11 +19,11 @@ locale                   : "en-US"
 title                    : |+
  \\cube0x0\
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "Incident Discovery"
 description              : "An awesome website."
-url                      : "https://cube0x0.github.io"
+url                      : "https://incidentdiscovery.github.io/"
 baseurl                  : ""
-repository               : "cube0x0/cube0x0.github.io"
+repository               : "incidentdiscovery/incidentdiscovery.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -107,10 +107,10 @@ analytics:
 # Site Author
 author:
   name   : |+
-   \\Cube0x0\
+   \\Incident Discovery\
   avatar : "/assets/img/profile.PNG"
   bio    : "Hacking Active Directory"
-  location         : "Sweden"
+  location         : "Brazil"
   email  : # optional
   links:
     - label: "Email"
