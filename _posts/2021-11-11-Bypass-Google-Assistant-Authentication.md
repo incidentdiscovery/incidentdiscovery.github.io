@@ -18,7 +18,8 @@ Essa vulnerabilidade pode ser explorada da mesma maneira (ou enviando uma inten�
 ## Observações
 Um fato curioso é que ao testar usando o navegador Chrome no Android, um arquivo de áudio é reproduzido de forma diferente dependendo da duração.
 Isso nos força a dividir os comandos de ataque em diferentes arquivos de áudio (por exemplo, o "local de compartilhamento" e o número do telefone são comandos diferentes), pois quando tentamos reproduzir o arquivo de áudio mais longo, o Chrome o interpretou como uma "mídia" e exibiu a notificação de controle de mídia também.
-E quando acionar o Assistente enquanto uma “mídia” de áudio mais longa estava sendo reproduzida, fez com que o Assistente pausasse o áudio.
+
+Quando acionar o Assistente e enquanto uma “mídia” de áudio mais longa estava sendo reproduzida, fez com que o Assistente pausasse o áudio.
 Ao usar arquivos de áudio mais curtos, a notificação de controle de mídia não apareceu, e o Assistente não pausou a mídia, permitindo-lhe executar os comandos maliciosos.
  
 Utilizando a API Cloud Text-to-Speech para gerar os arquivos de áudio, usamos language_code = ’en-US’ e name = ”en-US-Wavenet-A” para gerar os arquivos de áudio.
@@ -26,13 +27,7 @@ Toda a entrada de texto usada para gerar os arquivos de áudio pode ser encontra
  
 Logo abaixo podemos ver um vídeo com a prova de conceito (PoC) para facilitar a visualização do ataque em execução:
 
-Poc: https://youtu.be/T3CgECvV-qM
-
-## TT
-
-[![Everything Is AWESOME](https://img.youtube.com/vi/T3CgECvV-qM/0.jpg)](https://www.youtube.com/watch?v=T3CgECvV-qM "Everything Is AWESOME")
-
-
+Poc: https://youtu.be/l-Slg3oNWlg
 
 ## Prova de Conceito (PoC)
 
