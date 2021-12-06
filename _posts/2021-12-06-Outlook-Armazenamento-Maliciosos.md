@@ -26,7 +26,7 @@ Depois de enviarmos vamos em **Itens Enviados** e baixar o arquivo em anexo para
 
 ![bh-Look](../assets/img/2021-12-06/IMG08.png)
 
-Com o "link direto" podemos realizar o download através do PowerShell do Windows utilizando o comando **Curl**, basta que utilizemos a opção **-o** de output para criar uma saida do arquivo original (*um executável*), nesse caso ficaria algo como: `curl "link_do_arquivo.com.br" -o mimi.exe`
+Com o "link direto" podemos realizar o download através do PowerShell do Windows utilizando o comando **Curl** e a opção **-o** de output para criar a saida do arquivo com a extensão original (*um executável*) então o comando seria: `curl "link_do_arquivo.com.br" -o mimi.exe`
 
 ![bh-Look](../assets/img/2021-12-06/IMG09.png)
 
