@@ -25,6 +25,4 @@ Recomendamos não realizar o upload de arquivos apenas em .exe pois o outlook de
 Um outro ponto interessante é que o arquivo após enviado tem um prazo de validade que vária entre 10 à 15 minutos
 
 ## Cénario de Ataque
-Este tipo de ataque permite que um invasor execute comandos maliciosos no Google Assistente, em nome da vítima, apenas fazendo a vítima visitar uma página da web.
-O Assistente tem acesso a informações extremamente confidenciais e pode ser capaz de controlar a Conta do Google da vítima, o Smart Home e outros dispositivos IOT.
-Um invasor nunca deve ser capaz de executar comandos no Google Assistente sem ter permissões suficientes.
+Esse tipo técnica seria útil em ambientes internos (externos também) onde geralmente existem bloqueios em determinadas origens, e por se tratar de um “domínio confiável” poderíamos realizar o download de sem problemas.
