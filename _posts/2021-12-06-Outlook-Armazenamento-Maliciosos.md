@@ -4,18 +4,15 @@ classes: wide
 title:  "Utilizando o Outlook para armazenar arquivos maliciosos"
 ---
 ## Descrição
-Conseguimos através do anexo de e-mail do Outlook armazenar arquivos maliciosos.
-Isso nos permite realizar o upload/download de arquivos maliciosos através de um “local confiável” por se tratar de um subdomínio do Outlook.
-
+Conseguimos através do anexo de e-mail do Outlook armazenar arquivos maliciosos nos permitindo realizar o upload/download de arquivos maliciosos através de um “local confiável” por se tratar de um subdomínio do Outlook.
 
 ## Passos para reproduzir
-Primeiramente devemos modificar nosso arquivo malicioso adicionando uma extensão de texto (.txt)
-
+Primeiramente devemos modificar o arquivo malicioso adicionando uma extensão de texto (.txt)
 No Linux podemos incluir essa extensão de várias formas, uma delas é utilizar o comando **cp** para cria uma cópia do arquivo adicionando a extensão de texto, nesse caso ficaria algo como: **arquivo.exe.txt**
 
 ![bh-Look](../assets/img/2021-12-06/IMG01.png)
 
-Após prepararmos o arquivo malicioso podemos abrir o Outlook e irmos na opção “Nova Mensagem” e nela anexar nosso arquivo modificado e enviar para um qualquer destino (*nesse exemplo estamos encaminhando para um endereço de e-mail temporário*) pois o que nos interessa é o link direto do arquivo.
+Após prepararmos o arquivo malicioso podemos enviar um e-mail anexando nosso arquivo modificado para qualquer destino (*nesse exemplo estamos encaminhando para um endereço de e-mail temporário*) pois o que nos interessa é o link direto do arquivo.
 
 ![bh-Look](../assets/img/2021-12-06/IMG03.png)
 
