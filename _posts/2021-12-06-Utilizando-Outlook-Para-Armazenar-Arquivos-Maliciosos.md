@@ -1,7 +1,7 @@
 ---
 layout: single
 classes: wide
-title:  "Bypass na Autenticação do Google Assistente"
+title:  "Utilizando o Outlook para Armazenar Arquivos Maliciosos"
 ---
 ## Descrição
 Conseguimos através do anexo de e-mail do Outlook armazenar arquivos maliciosos.
